@@ -3,17 +3,11 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin-top: 2rem;
 }
 
 .card {
     min-height: 30rem;
-    width: 40%;
-    margin: 2rem auto;
-    box-shadow: 1px 1px 10px 1px gray;
 }
 
 .card-header:first-child,
@@ -94,6 +88,7 @@ p {
     margin-right: 10px;
     color: #007bff;
 }
+
 
 .btn {
     background-color: #007bff;
