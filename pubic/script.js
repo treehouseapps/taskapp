@@ -31,7 +31,7 @@ submit.addEventListener('click', () => {
             p.style.color = "white";
             input.style.border = "1px solid lightgray"
             listArray.push(input.value)
-input.value = ""
+            input.value = ""
             action()
         }
     }
