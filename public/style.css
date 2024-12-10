@@ -1,13 +1,19 @@
 body {
-    background-color: brown;
+    background-color: whitesmoke;
 }
 
 .container {
-    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .card {
     min-height: 30rem;
+    width: 40%;
+    margin: 2rem auto;
+    box-shadow: 1px 1px 10px 1px gray;
 }
 
 .card-header:first-child,
@@ -20,19 +26,8 @@ body {
     align-items: center;
 }
 
-.btn-primary {
-    margin-top: -1.2rem;
-}
-
 .btn-primary:hover {
     background-color: rgba(15, 101, 172, 0.87);
-}
-
-.main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    word-break: break-all;
-    overflow-wrap: break-word;
 }
 
 li,
@@ -48,9 +43,10 @@ p {
 }
 
 .main {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #fc1e1e;
     margin-bottom: 10px;
-    max-width: 98%;
+    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 .btnlist {
@@ -79,8 +75,8 @@ p {
 }
 
 .item {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     padding: 10px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -89,15 +85,15 @@ p {
     transition: background-color 0.3s ease;
 }
 
-.item:hover {
-    background-color: #eaeaea;
+.align {
+    display: inline-flex;
+    align-items: center;
 }
 
 .icon {
     margin-right: 10px;
     color: #007bff;
 }
-
 
 .btn {
     background-color: #007bff;
@@ -120,4 +116,10 @@ p {
 
 .edit {
     height: 2rem;
+}
+
+#edit {
+    display: none;
+    min-width: max-content;
+    max-width: 80%;
 }
