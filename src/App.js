@@ -35,7 +35,7 @@ const App = () => {
                     <div className="card">
                         <div className="card-header bg-primary text-white">
                             <center>
-                                <h3 className="card-title">Task App</h3>
+                                <h3 class="card-title">Task App <i class="bi bi-clipboard-pulse"></i></h3>
                             </center>
                         </div>
                         <div className="card-body">
